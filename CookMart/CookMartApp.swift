@@ -11,7 +11,7 @@ import SwiftUI
 struct CookMartApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Text("Text")
         }
     }
 }
