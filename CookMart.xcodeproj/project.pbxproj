@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E0268C629D1DF7B00932885 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 6E0268C529D1DF7B00932885 /* ComposableArchitecture */; };
+		6EA3B13D29CDEB2F00A2BD6B /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B13C29CDEB2F00A2BD6B /* MobileNetV2.mlmodel */; };
 		6EBE43F629CC939700879256 /* CookMartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE43F529CC939700879256 /* CookMartApp.swift */; };
 		6EBE43F829CC939700879256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE43F729CC939700879256 /* ContentView.swift */; };
 		6EBE43FA29CC939800879256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBE43F929CC939800879256 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6EA3B13C29CDEB2F00A2BD6B /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		6EBE43F229CC939700879256 /* CookMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBE43F529CC939700879256 /* CookMartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookMartApp.swift; sourceTree = "<group>"; };
 		6EBE43F729CC939700879256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E0268C629D1DF7B00932885 /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +55,7 @@
 		6EBE43F429CC939700879256 /* CookMart */ = {
 			isa = PBXGroup;
 			children = (
+				6EA3B13C29CDEB2F00A2BD6B /* MobileNetV2.mlmodel */,
 				6EBE43F529CC939700879256 /* CookMartApp.swift */,
 				6EBE43F729CC939700879256 /* ContentView.swift */,
 				6EBE43F929CC939800879256 /* Assets.xcassets */,
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = CookMart;
+			packageProductDependencies = (
+				6E0268C529D1DF7B00932885 /* ComposableArchitecture */,
+			);
 			productName = CookMart;
 			productReference = 6EBE43F229CC939700879256 /* CookMart.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = 6EBE43E929CC939700879256;
+			packageReferences = (
+				6E0268C429D1DF7B00932885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 6EBE43F329CC939700879256 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6EBE43F829CC939700879256 /* ContentView.swift in Sources */,
+				6EA3B13D29CDEB2F00A2BD6B /* MobileNetV2.mlmodel in Sources */,
 				6EBE43F629CC939700879256 /* CookMartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E0268C429D1DF7B00932885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E0268C529D1DF7B00932885 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E0268C429D1DF7B00932885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6EBE43EA29CC939700879256 /* Project object */;
 }
