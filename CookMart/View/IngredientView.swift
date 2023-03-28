@@ -21,7 +21,7 @@ struct IngredientView: View {
                         Spacer()
                         Image(systemName: viewStore.isSelected ? "checkmark.square" : "square")
                             .resizable()
-                            .frame(width: 20, height: 20)
+                            .frame(width: 30, height: 30)
                             .foregroundColor(viewStore.isSelected ? .green : .black)
                     }
                     .padding(8)
@@ -35,7 +35,9 @@ struct IngredientView: View {
 
 struct IngredientView_Previews: PreviewProvider {
     static var previews: some View {
-//        IngredientView(store: <#T##<<error type>>#>)
-        Text("sdfs")
+        IngredientView(store: .init(
+            initialState: .init(name: "Apple", imageName: "apple"),
+            reducer: Ingredient()
+        ))
     }
 }
