@@ -92,6 +92,15 @@ class ConcurentModel: ObservableObject {
             self.activity1 = try await fetchActivityRequest()
             self.activity2 = try await fetchActivityRequest()
         }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 6) {
+            Task {
+                do {
+                    self.clear()
+                    try await self.start()
+                }
+            }
+        }
     }
     
     func clear() {
