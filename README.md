@@ -4,6 +4,19 @@
 
 This repository contains two separate experiments that demonstrate different concepts related to iOS development. The first experiment is a demonstration of concurrency, while the second experiment is focused on implementing an app using a composable architecture style.
 
+<div style="display: flex; flex-direction: row;">
+  <div style="display: flex; flex-direction: row;">
+    <img src="Sources/image1.png" width="200" height="200">
+    <img src="Sources/image2.png" width="200" height="200">
+    <img src="Sources/image3.png" width="200" height="200">
+  </div>
+  <div style="display: flex; flex-direction: row;">
+    <img src="Sources/image4.png" width="200" height="200">
+    <img src="Sources/image5.png" width="200" height="200">
+    <img src="Sources/image6.png" width="200" height="200">
+  </div>
+</div>
+
 ###  Experiments
 1. [Concurency in SwiftUI.](#concurency) 
 Explore our iOS concurrency experiment that showcases the benefits of concurrency with a simple view that sends four sequential requests to a server. Here.

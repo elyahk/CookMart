@@ -30,7 +30,7 @@ struct MainView: View {
                 }
                 
                 NavigationLink {
-                    ConcurencyTest()
+                    ConcurentView(model: .init())
                 } label: {
                     Text("Concurrency →")
                         .font(.title)
