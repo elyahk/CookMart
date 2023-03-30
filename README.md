@@ -43,3 +43,6 @@ The meal details screen displays a large cover image of the selected meal, as we
 
 #### Conclusion
 By using the PCA architecture, the app is easy to understand and modify. The business logic and user interface are clearly separated, which makes it easy to test and refactor the app's code. Additionally, the PCA architecture provides a solid foundation for adding new features and functionality to the app in the future.
+
+### Privacy Policy
+The app does not collect or store any personal information from its users. Any data that is collected is used only for the purpose of providing the app's core functionality. For more information about our privacy policy, please refer to me. [Github](https://github.com/elyahk).
