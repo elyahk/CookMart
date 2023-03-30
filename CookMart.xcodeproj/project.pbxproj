@@ -25,6 +25,7 @@
 		6EF19E9C29D5DA890091F2B4 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9B29D5DA890091F2B4 /* CatView.swift */; };
 		6EF19E9E29D5DAA40091F2B4 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9D29D5DAA40091F2B4 /* ActivityView.swift */; };
 		6EF19EA029D5DAC50091F2B4 /* ConcurentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9F29D5DAC50091F2B4 /* ConcurentView.swift */; };
+		6EF19EA529D5DBD90091F2B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 6EF19EA429D5DBD90091F2B4 /* README.md */; };
 		6EF4468C29D310CA00F62F8C /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4468B29D310CA00F62F8C /* IngredientView.swift */; };
 		6EF4468E29D3114400F62F8C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4468D29D3114400F62F8C /* Ingredient.swift */; };
 		6EF4469029D3118300F62F8C /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4468F29D3118300F62F8C /* Ingredients.swift */; };
@@ -50,7 +51,7 @@
 		6EF19E9B29D5DA890091F2B4 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
 		6EF19E9D29D5DAA40091F2B4 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		6EF19E9F29D5DAC50091F2B4 /* ConcurentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurentView.swift; sourceTree = "<group>"; };
-		6EF19EA329D5DB630091F2B4 /* READ.ME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READ.ME.md; sourceTree = "<group>"; };
+		6EF19EA429D5DBD90091F2B4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6EF4468B29D310CA00F62F8C /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
 		6EF4468D29D3114400F62F8C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		6EF4468F29D3118300F62F8C /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 		6EBE43E929CC939700879256 = {
 			isa = PBXGroup;
 			children = (
+				6EF19EA429D5DBD90091F2B4 /* README.md */,
 				6EBE43F429CC939700879256 /* CookMart */,
 				6EBE43F329CC939700879256 /* Products */,
 			);
@@ -94,7 +96,6 @@
 				6EF4469129D311B400F62F8C /* Reducer */,
 				6EBE43F929CC939800879256 /* Assets.xcassets */,
 				6EBE43FB29CC939800879256 /* Preview Content */,
-				6EF19EA329D5DB630091F2B4 /* READ.ME.md */,
 			);
 			path = CookMart;
 			sourceTree = "<group>";
@@ -218,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF19EA529D5DBD90091F2B4 /* README.md in Resources */,
 				6EBE43FD29CC939800879256 /* Preview Assets.xcassets in Resources */,
 				6EBE43FA29CC939800879256 /* Assets.xcassets in Resources */,
 			);
