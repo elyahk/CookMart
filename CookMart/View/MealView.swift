@@ -8,60 +8,16 @@
 import SwiftUI
 import ComposableArchitecture
 
-struct Meal: ReducerProtocol {
-    struct State: Equatable {
-        var title: String
-        var coverImage: UIImage
-        var description: String
-        var quickInfo: QuickInfo
-        var ingredients: Ingredients.State
-        var steps: [CookStep]
-    }
-    
-    struct CookStep: Equatable {
-        var description: String
-    }
-    
-    struct QuickInfo: Equatable {
-        var callories: String
-        var preparationTime: String
-        var difficulty: Difficulty
-    }
-    
-    enum Difficulty: String {
-        case easy
-        case medium
-        case difficult
-    }
-    
-    enum Action: Equatable {
-        case startButtonTapped
-    }
-    
-    func reduce(into state: inout State, action: Action) -> EffectTask<Action> {
-        switch action {
-        case .startButtonTapped:
-            return .none
-        }
-    }
-}
-
 struct MealView: View {
     enum PickerState {
         case engridient
         case process
     }
-    
     @State var pickerState: PickerState = .process
-    
     let store: StoreOf<Meal>
     
     init(store: StoreOf<Meal>) {
         self.store = store
-    }
-
-    enum ScrollId: Hashable {
-        case engridients
     }
     
     var body: some View {
@@ -99,8 +55,6 @@ struct MealView: View {
                             .padding([.leading, .trailing])
                             
                             CookingStepView(steps: viewStore.steps.map { $0.description })
-                            
-                            
                         }
                     }
                 }
@@ -114,63 +68,6 @@ struct MealView: View {
             }
         }
         .ignoresSafeArea()
-    }
-}
-
-struct CookingStepView: View {
-    @State var steps: [String]
-    
-    init(steps: [String]) {
-        self.steps = steps
-    }
-
-    var body: some View {
-            VStack(alignment: .leading) {
-                ForEach(Range(1...steps.count)) { id in
-                    VStack(alignment: .leading) {
-                        Text("\(id). Step")
-                            .font(.title3)
-                            .bold()
-                            .padding([.leading])
-                            .padding([.bottom], 0.5)
-                        HStack {
-                            Text(steps[id-1])
-                        }
-                        .padding([.leading])
-                    }
-                    .padding([.top], 4)
-                }
-            }
-        
-    }
-}
-
-struct QuickInfoView: View {
-    var body: some View {
-        HStack {
-            VStack {
-                Image(systemName: "flame.fill")
-                    .padding([.bottom], 4)
-                Text("200 kkal")
-                    .font(.caption)
-            }
-            .padding([.leading], 40)
-            Spacer()
-            VStack {
-                Image(systemName: "clock.badge.checkmark")
-                    .padding([.bottom], 4)
-                Text("25 mins")
-                    .font(.caption)
-            }
-            Spacer()
-            VStack {
-                Image(systemName: "graduationcap.fill")
-                    .padding([.bottom], 4)
-                Text("easy")
-                    .font(.caption)
-            }
-            .padding([.trailing], 40)
-        }
     }
 }
 

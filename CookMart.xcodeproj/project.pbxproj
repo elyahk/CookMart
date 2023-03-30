@@ -15,6 +15,16 @@
 		6EBE43FA29CC939800879256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBE43F929CC939800879256 /* Assets.xcassets */; };
 		6EBE43FD29CC939800879256 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EBE43FC29CC939800879256 /* Preview Assets.xcassets */; };
 		6EF19E8C29D5D7E20091F2B4 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E8B29D5D7E20091F2B4 /* MainView.swift */; };
+		6EF19E8E29D5D9960091F2B4 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E8D29D5D9960091F2B4 /* Meal.swift */; };
+		6EF19E9029D5D9B30091F2B4 /* CookingStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E8F29D5D9B30091F2B4 /* CookingStepView.swift */; };
+		6EF19E9229D5D9C50091F2B4 /* QuickInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9129D5D9C50091F2B4 /* QuickInfoView.swift */; };
+		6EF19E9429D5DA1C0091F2B4 /* Networki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9329D5DA1C0091F2B4 /* Networki.swift */; };
+		6EF19E9629D5DA390091F2B4 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9529D5DA390091F2B4 /* Cat.swift */; };
+		6EF19E9829D5DA4A0091F2B4 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9729D5DA4A0091F2B4 /* Activity.swift */; };
+		6EF19E9A29D5DA660091F2B4 /* ConcurentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9929D5DA660091F2B4 /* ConcurentModel.swift */; };
+		6EF19E9C29D5DA890091F2B4 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9B29D5DA890091F2B4 /* CatView.swift */; };
+		6EF19E9E29D5DAA40091F2B4 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9D29D5DAA40091F2B4 /* ActivityView.swift */; };
+		6EF19EA029D5DAC50091F2B4 /* ConcurentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF19E9F29D5DAC50091F2B4 /* ConcurentView.swift */; };
 		6EF4468C29D310CA00F62F8C /* IngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4468B29D310CA00F62F8C /* IngredientView.swift */; };
 		6EF4468E29D3114400F62F8C /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4468D29D3114400F62F8C /* Ingredient.swift */; };
 		6EF4469029D3118300F62F8C /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EF4468F29D3118300F62F8C /* Ingredients.swift */; };
@@ -30,6 +40,16 @@
 		6EBE43F929CC939800879256 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6EBE43FC29CC939800879256 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6EF19E8B29D5D7E20091F2B4 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6EF19E8D29D5D9960091F2B4 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		6EF19E8F29D5D9B30091F2B4 /* CookingStepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookingStepView.swift; sourceTree = "<group>"; };
+		6EF19E9129D5D9C50091F2B4 /* QuickInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickInfoView.swift; sourceTree = "<group>"; };
+		6EF19E9329D5DA1C0091F2B4 /* Networki.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networki.swift; sourceTree = "<group>"; };
+		6EF19E9529D5DA390091F2B4 /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		6EF19E9729D5DA4A0091F2B4 /* Activity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		6EF19E9929D5DA660091F2B4 /* ConcurentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurentModel.swift; sourceTree = "<group>"; };
+		6EF19E9B29D5DA890091F2B4 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
+		6EF19E9D29D5DAA40091F2B4 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		6EF19E9F29D5DAC50091F2B4 /* ConcurentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurentView.swift; sourceTree = "<group>"; };
 		6EF4468B29D310CA00F62F8C /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
 		6EF4468D29D3114400F62F8C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		6EF4468F29D3118300F62F8C /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
@@ -67,8 +87,12 @@
 		6EBE43F429CC939700879256 /* CookMart */ = {
 			isa = PBXGroup;
 			children = (
+				6EF19E9B29D5DA890091F2B4 /* CatView.swift */,
+				6EF19E9729D5DA4A0091F2B4 /* Activity.swift */,
 				6EA3B13C29CDEB2F00A2BD6B /* MobileNetV2.mlmodel */,
 				6EBE43F529CC939700879256 /* CookMartApp.swift */,
+				6EF19E9329D5DA1C0091F2B4 /* Networki.swift */,
+				6EF19E9D29D5DAA40091F2B4 /* ActivityView.swift */,
 				6EF4469229D311C900F62F8C /* View */,
 				6EF4469129D311B400F62F8C /* Reducer */,
 				6EBE43F929CC939800879256 /* Assets.xcassets */,
@@ -90,6 +114,7 @@
 			children = (
 				6EF4468F29D3118300F62F8C /* Ingredients.swift */,
 				6EF4468D29D3114400F62F8C /* Ingredient.swift */,
+				6EF19E8D29D5D9960091F2B4 /* Meal.swift */,
 			);
 			path = Reducer;
 			sourceTree = "<group>";
@@ -101,7 +126,12 @@
 				6EBE43F729CC939700879256 /* IngredientsView.swift */,
 				6EF19E8B29D5D7E20091F2B4 /* MainView.swift */,
 				6EF4469329D31F7A00F62F8C /* ConcurencyTest.swift */,
+				6EF19E9F29D5DAC50091F2B4 /* ConcurentView.swift */,
+				6EF19E9929D5DA660091F2B4 /* ConcurentModel.swift */,
+				6EF19E9529D5DA390091F2B4 /* Cat.swift */,
 				6E69603629D47B9800858C6A /* MealView.swift */,
+				6EF19E9129D5D9C50091F2B4 /* QuickInfoView.swift */,
+				6EF19E8F29D5D9B30091F2B4 /* CookingStepView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -182,14 +212,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF19E8E29D5D9960091F2B4 /* Meal.swift in Sources */,
+				6EF19E9229D5D9C50091F2B4 /* QuickInfoView.swift in Sources */,
 				6EF4468E29D3114400F62F8C /* Ingredient.swift in Sources */,
 				6EF19E8C29D5D7E20091F2B4 /* MainView.swift in Sources */,
 				6EF4469029D3118300F62F8C /* Ingredients.swift in Sources */,
+				6EF19E9A29D5DA660091F2B4 /* ConcurentModel.swift in Sources */,
 				6EBE43F829CC939700879256 /* IngredientsView.swift in Sources */,
+				6EF19E9E29D5DAA40091F2B4 /* ActivityView.swift in Sources */,
 				6E69603729D47B9800858C6A /* MealView.swift in Sources */,
 				6EF4469429D31F7A00F62F8C /* ConcurencyTest.swift in Sources */,
 				6EA3B13D29CDEB2F00A2BD6B /* MobileNetV2.mlmodel in Sources */,
+				6EF19E9629D5DA390091F2B4 /* Cat.swift in Sources */,
+				6EF19E9C29D5DA890091F2B4 /* CatView.swift in Sources */,
+				6EF19E9829D5DA4A0091F2B4 /* Activity.swift in Sources */,
 				6EF4468C29D310CA00F62F8C /* IngredientView.swift in Sources */,
+				6EF19E9429D5DA1C0091F2B4 /* Networki.swift in Sources */,
+				6EF19E9029D5D9B30091F2B4 /* CookingStepView.swift in Sources */,
+				6EF19EA029D5DAC50091F2B4 /* ConcurentView.swift in Sources */,
 				6EBE43F629CC939700879256 /* CookMartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
