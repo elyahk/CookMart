@@ -87,12 +87,8 @@
 		6EBE43F429CC939700879256 /* CookMart */ = {
 			isa = PBXGroup;
 			children = (
-				6EF19E9B29D5DA890091F2B4 /* CatView.swift */,
-				6EF19E9729D5DA4A0091F2B4 /* Activity.swift */,
-				6EA3B13C29CDEB2F00A2BD6B /* MobileNetV2.mlmodel */,
-				6EBE43F529CC939700879256 /* CookMartApp.swift */,
-				6EF19E9329D5DA1C0091F2B4 /* Networki.swift */,
-				6EF19E9D29D5DAA40091F2B4 /* ActivityView.swift */,
+				6EF19EA229D5DAFC0091F2B4 /* Helper */,
+				6EF19EA129D5DAF00091F2B4 /* Model */,
 				6EF4469229D311C900F62F8C /* View */,
 				6EF4469129D311B400F62F8C /* Reducer */,
 				6EBE43F929CC939800879256 /* Assets.xcassets */,
@@ -109,6 +105,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		6EF19EA129D5DAF00091F2B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6EF19E9529D5DA390091F2B4 /* Cat.swift */,
+				6EF19E9929D5DA660091F2B4 /* ConcurentModel.swift */,
+				6EF19E9729D5DA4A0091F2B4 /* Activity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6EF19EA229D5DAFC0091F2B4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6EA3B13C29CDEB2F00A2BD6B /* MobileNetV2.mlmodel */,
+				6EBE43F529CC939700879256 /* CookMartApp.swift */,
+				6EF19E9329D5DA1C0091F2B4 /* Networki.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		6EF4469129D311B400F62F8C /* Reducer */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,13 +138,13 @@
 		6EF4469229D311C900F62F8C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6EF19E9B29D5DA890091F2B4 /* CatView.swift */,
+				6EF19E9D29D5DAA40091F2B4 /* ActivityView.swift */,
 				6EF4468B29D310CA00F62F8C /* IngredientView.swift */,
 				6EBE43F729CC939700879256 /* IngredientsView.swift */,
 				6EF19E8B29D5D7E20091F2B4 /* MainView.swift */,
 				6EF4469329D31F7A00F62F8C /* ConcurencyTest.swift */,
 				6EF19E9F29D5DAC50091F2B4 /* ConcurentView.swift */,
-				6EF19E9929D5DA660091F2B4 /* ConcurentModel.swift */,
-				6EF19E9529D5DA390091F2B4 /* Cat.swift */,
 				6E69603629D47B9800858C6A /* MealView.swift */,
 				6EF19E9129D5D9C50091F2B4 /* QuickInfoView.swift */,
 				6EF19E8F29D5D9B30091F2B4 /* CookingStepView.swift */,
