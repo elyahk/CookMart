@@ -13,40 +13,48 @@ struct IngredientsView: View {
     }
     
     var body: some View {
-        NavigationView {
-            WithViewStore(store, observe: { $0 }) { viewStore in
-                ZStack(alignment: .bottom) {
-                    List {
-                        ForEach(viewStore.ingredients) { ingredient in
-                            IngredientView(store: .init(
-                                initialState: ingredient,
-                                reducer: Ingredient()
-                            ))
-                        }
-                    }
-                    
-                    NavigationLink {
-                        MealView(store: StoreOf<Meal>(initialState: Meal.mock, reducer: Meal()))
-                    } label: {
-                        Text("Start Cook →")
-                            .font(.title)
-                            .foregroundColor(.yellow)
-                    }
-                    .padding()
-                    .background {
-                        Rectangle()
-                            .foregroundColor(.black)
-                            .cornerRadius(15)
+        WithViewStore(store, observe: { $0 }) { viewStore in
+            ZStack(alignment: .bottom) {
+                List {
+                    ForEach(viewStore.ingredients) { ingredient in
+                        IngredientView(store: .init(
+                            initialState: ingredient,
+                            reducer: Ingredient()
+                        ))
                     }
                 }
+                
+                NavigationLink {
+                    MealView(store: StoreOf<Meal>(initialState: Meal.mock, reducer: Meal()))
+                } label: {
+                    Text("Start Cook →")
+                        .font(.title)
+                        .foregroundColor(.yellow)
+                }
+                .padding()
+                .background {
+                    Rectangle()
+                        .foregroundColor(.black)
+                        .cornerRadius(15)
+                }
             }
-            .navigationTitle("Ingredients")
-            .navigationBarTitleDisplayMode(.inline)
         }
+        .navigationTitle("Ingredients")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct IngredientsView_Previews: PreviewProvider {
+    
+    static var previews: some View {
+        IngredientsView(store: .init(
+            initialState: Ingredients.mock,
+            reducer: Ingredients()
+        ))
+    }
+}
+
+extension Ingredients {
     static var ingredients: IdentifiedArrayOf<Ingredient.State> = [
         Ingredient.State(name: "Apple", imageName: "apple"),
         Ingredient.State(name: "Onion", imageName: "onion"),
@@ -55,10 +63,5 @@ struct IngredientsView_Previews: PreviewProvider {
         Ingredient.State(name: "Tomato", imageName: "tomato")
     ]
     
-    static var previews: some View {
-        IngredientsView(store: .init(
-            initialState: .init(ingredients: ingredients),
-            reducer: Ingredients()
-        ))
-    }
+    static var mock: Ingredients.State = .init(ingredients: ingredients)
 }
