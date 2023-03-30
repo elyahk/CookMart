@@ -25,7 +25,8 @@ struct IngredientsView: View {
                         }
                     }
                     
-                    Button {
+                    NavigationLink {
+                        MealView(store: StoreOf<Meal>(initialState: Meal.mock, reducer: Meal()))
                     } label: {
                         Text("Start Cook →")
                             .font(.title)

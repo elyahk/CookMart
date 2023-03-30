@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6E0268C629D1DF7B00932885 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 6E0268C529D1DF7B00932885 /* ComposableArchitecture */; };
+		6E69603729D47B9800858C6A /* MealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E69603629D47B9800858C6A /* MealView.swift */; };
 		6EA3B13D29CDEB2F00A2BD6B /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6EA3B13C29CDEB2F00A2BD6B /* MobileNetV2.mlmodel */; };
 		6EBE43F629CC939700879256 /* CookMartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE43F529CC939700879256 /* CookMartApp.swift */; };
 		6EBE43F829CC939700879256 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EBE43F729CC939700879256 /* IngredientsView.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E69603629D47B9800858C6A /* MealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealView.swift; sourceTree = "<group>"; };
 		6EA3B13C29CDEB2F00A2BD6B /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 		6EBE43F229CC939700879256 /* CookMart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CookMart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EBE43F529CC939700879256 /* CookMartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookMartApp.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				6EF4468B29D310CA00F62F8C /* IngredientView.swift */,
 				6EBE43F729CC939700879256 /* IngredientsView.swift */,
 				6EF4469329D31F7A00F62F8C /* ConcurencyTest.swift */,
+				6E69603629D47B9800858C6A /* MealView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				6EF4468E29D3114400F62F8C /* Ingredient.swift in Sources */,
 				6EF4469029D3118300F62F8C /* Ingredients.swift in Sources */,
 				6EBE43F829CC939700879256 /* IngredientsView.swift in Sources */,
+				6E69603729D47B9800858C6A /* MealView.swift in Sources */,
 				6EF4469429D31F7A00F62F8C /* ConcurencyTest.swift in Sources */,
 				6EA3B13D29CDEB2F00A2BD6B /* MobileNetV2.mlmodel in Sources */,
 				6EF4468C29D310CA00F62F8C /* IngredientView.swift in Sources */,
