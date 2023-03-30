@@ -50,6 +50,7 @@
 		6EF19E9B29D5DA890091F2B4 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
 		6EF19E9D29D5DAA40091F2B4 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		6EF19E9F29D5DAC50091F2B4 /* ConcurentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurentView.swift; sourceTree = "<group>"; };
+		6EF19EA329D5DB630091F2B4 /* READ.ME.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = READ.ME.md; sourceTree = "<group>"; };
 		6EF4468B29D310CA00F62F8C /* IngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientView.swift; sourceTree = "<group>"; };
 		6EF4468D29D3114400F62F8C /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
 		6EF4468F29D3118300F62F8C /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 				6EF4469129D311B400F62F8C /* Reducer */,
 				6EBE43F929CC939800879256 /* Assets.xcassets */,
 				6EBE43FB29CC939800879256 /* Preview Content */,
+				6EF19EA329D5DB630091F2B4 /* READ.ME.md */,
 			);
 			path = CookMart;
 			sourceTree = "<group>";
